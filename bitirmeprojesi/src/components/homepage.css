@@ -1,0 +1,82 @@
+
+
+.homepage {
+    height: 100vh;
+    weight: 100vw;
+    background-image:url(https://i.pinimg.com/564x/70/3f/f6/703ff610a8d1beb182c9c96d0bf4d1d2.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+  }
+  
+  
+  
+  .add-edit-input {
+    position: absolute;
+    border-radius: 15px;
+    background-color: rgb(214, 149, 205);
+    box-shadow: 2px 2px 5px #e4f503, -2px -2px 5px #46758ee6;
+    top: 20px;
+    outline: none;
+    border: none;
+    height: 30px;
+    font-size: 25px;
+    padding: 5px 20px;
+  }
+  
+  .add-confirm-icon {
+    background: rgb(158, 195, 238);
+    color: rgb(143, 31, 191);
+    position: absolute;
+    transform: scale(2);
+    top: 27px;
+    right: 750px;
+    cursor: pointer;
+    
+  }
+  
+  .todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 15px;
+  }
+  
+  .todo > h1 {
+    width: 300px;
+    border-radius: 15px;
+    background-color: rgb(203, 56, 183);
+    box-shadow: 2px 2px 5px #e4f503, -2px -2px 5px #46758ee6;
+
+    padding: 5px 10px 5px 5px;
+    text-align:center;
+    
+
+  }
+  
+  .edit-button,
+  .delete-button {
+    cursor: pointer;
+    margin-left: 15px;
+    color: rgb(143, 31, 191);
+  }
+  
+  .logout-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 20px;
+    background: rgb(158, 195, 238);
+    color: rgb(143, 31, 191);
+  }
+
+  
+  

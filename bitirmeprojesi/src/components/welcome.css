@@ -1,0 +1,75 @@
+
+.welcome {
+  height: 100vh;
+    weight: 100vw;
+    background-image:url(https://i.pinimg.com/564x/70/3f/f6/703ff610a8d1beb182c9c96d0bf4d1d2.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.welcome > h1 {
+  font-family: "Changa One";
+  font-weight: normal;
+  font-size: 144px;
+  left: 46px;
+  top: 155px;
+  position: absolute;
+  color: rgb(145, 29, 135);
+}
+
+.login-register-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 50px;
+  left: 150px;
+  top: 360px;
+  
+}
+
+.login-register-container > input {
+  height: 30px;
+  width: 80%;
+  border: 1px solid gray;
+  outline: none;
+  margin-bottom: 15px;
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: rgb(214, 149, 205);
+  box-shadow: 2px 2px 5px #e4f503, -2px -2px 5px #46758ee6;
+}
+
+.login-register-container > button {
+  padding: 5px 20px;
+  border: none;
+  margin-bottom: 5px;
+  cursor: pointer;
+  color:rgb(38, 5, 41);
+}
+
+.sign-in-register-button {
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: "Changa One";
+  font-weight: normal;
+  color: rgb(236, 178, 243);
+  border-radius: 15px;
+  background-color: rgb(98, 184, 6);
+}
+
+.create-account-button {
+  background: none;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: rgba(234, 230, 9, 0.796);
+}
+
